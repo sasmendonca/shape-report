@@ -5,13 +5,14 @@ This script generates a comprehensive PDF report based on ROCS (Rapid Overlay of
 ## Features
 
 * __Customizable Query:__ Define your own query molecule to tailor the analysis.
-* __Color Field Integration:__ Utilize a color field file (.cff) to visualize the distribution of chemical properties.
+* __Color Field Integration:__ Utilize a color field file (.cff) to visualize the distribution of colors force field.
 * __2D Overlap Depiction:__ Generate 2D structure overlays and Tanimoto similarity scores for visual comparison.
 * __Optimized for ROCS Data:__ Designed to process output from ROCS, leveraging user-defined score functions efficiently.
 
 ## Prerequisites
 * OpenEye Python environment (oepython)
 * ROCS (Rapid Overlay of Chemical Structures)
+* Openeye license
 
 ## How to Execute
 * Activate your OpenEye Python environment:
