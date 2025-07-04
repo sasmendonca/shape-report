@@ -4,10 +4,10 @@ This script generates a comprehensive PDF report based on ROCS (Rapid Overlay of
 
 ## Features
 
-__Customizable Query:__ Define your own query molecule to tailor the analysis.
-__Color Field Integration:__ Utilize a color field file (.cff) to visualize the distribution of chemical properties.
-__2D Overlap Depiction:__ Generate 2D structure overlays and Tanimoto similarity scores for visual comparison.
-__Optimized for ROCS Data:__ Designed to process output from ROCS, leveraging user-defined score functions efficiently.
+* __Customizable Query:__ Define your own query molecule to tailor the analysis.
+* __Color Field Integration:__ Utilize a color field file (.cff) to visualize the distribution of chemical properties.
+* __2D Overlap Depiction:__ Generate 2D structure overlays and Tanimoto similarity scores for visual comparison.
+* __Optimized for ROCS Data:__ Designed to process output from ROCS, leveraging user-defined score functions efficiently.
 
 ## Prerequisites
 * OpenEye Python environment (oepython)
@@ -15,10 +15,10 @@ __Optimized for ROCS Data:__ Designed to process output from ROCS, leveraging us
 
 ## How to Execute
 * Activate your OpenEye Python environment:
-''' conda activate oepython '''
+``` conda activate oepython ```
 
 * Run the script with the following command:
-''' python shapeoverlap2pdf.py -in <input_oeb.gz_file> -out <output_pdf_report> -cfffile <color_field_file.cff> -maxhits <number_of_hits> -depictsim '''
+``` python shapeoverlap2pdf.py -in <input_oeb.gz_file> -out <output_pdf_report> -cfffile <color_field_file.cff> -maxhits <number_of_hits> -depictsim ```
 
 Parameters:
 
