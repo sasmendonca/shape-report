@@ -10,15 +10,15 @@ __2D Overlap Depiction:__ Generate 2D structure overlays and Tanimoto similarity
 __Optimized for ROCS Data:__ Designed to process output from ROCS, leveraging user-defined score functions efficiently.
 
 ## Prerequisites
-*OpenEye Python environment (oepython)
-*ROCS (Rapid Overlay of Chemical Structures)
+* OpenEye Python environment (oepython)
+* ROCS (Rapid Overlay of Chemical Structures)
 
-###How to Execute
-*Activate your OpenEye Python environment:
-'''conda activate oepython'''
+### How to Execute
+* Activate your OpenEye Python environment:
+''' conda activate oepython '''
 
-*Run the script with the following command:
-'''python shapeoverlap2pdf.py -in <input_oeb.gz_file> -out <output_pdf_report> -cfffile <color_field_file.cff> -maxhits <number_of_hits> -depictsim'''
+* Run the script with the following command:
+''' python shapeoverlap2pdf.py -in <input_oeb.gz_file> -out <output_pdf_report> -cfffile <color_field_file.cff> -maxhits <number_of_hits> -depictsim '''
 
 Parameters:
 
