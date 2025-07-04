@@ -1,4 +1,4 @@
-###Script to generate ROCS shape report based on color, shape, and 2d overlap by user defined query
+##Script to generate ROCS shape report based on color, shape, and 2d overlap by user defined query
 
 to execute: (oepythonenv) python shapeoverlap2pdf.py -in oeb.gzfile -out pdfreport -cfffile colorfieldfile -maxhits xx -depictsim (depict-2d-overlap)
 
