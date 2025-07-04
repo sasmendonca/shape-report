@@ -13,7 +13,7 @@ __Optimized for ROCS Data:__ Designed to process output from ROCS, leveraging us
 * OpenEye Python environment (oepython)
 * ROCS (Rapid Overlay of Chemical Structures)
 
-### How to Execute
+## How to Execute
 * Activate your OpenEye Python environment:
 ''' conda activate oepython '''
 
