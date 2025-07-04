@@ -1,0 +1,22 @@
+#########################################
+#TITLE
+#########################################
+#           Interaction Types           #
+#########################################
+TYPE acceptor
+TYPE anion
+TYPE hydrophobe
+#########################################
+#           Type Patterns               #
+#########################################
+PATTERN hydrophobe [C,c;!$(*~[O,N,S,F,Cl,Br,I])]
+PATTERN acceptor [O,N;!H0]
+PATTERN acceptor [O,N,S;H1,H2]
+PATTERN acceptor [$(O=C),$(O=N),$(O=S),$(O=P)]
+PATTERN anion C(=O)[O]
+#########################################
+#       Interaction Definitions         #
+#########################################
+INTERACTION acceptor acceptor attractive gaussian weight=1.000000 radius=1.000000
+INTERACTION anion anion attractive gaussian weight=1.000000 radius=1.000000
+INTERACTION hydrophobe hydrophobe attractive gaussian weight=1.000000 radius=1.000000
